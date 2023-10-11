@@ -28,7 +28,7 @@ abstract public class BaseDriver {
         }
         @AfterEach
         public void tearDown () {
-//            driver.quit();
+            driver.quit();
         }
 //    }
 }
